@@ -1,0 +1,68 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+div p {
+  color: chartreuse;
+}
+.para2 {
+  color: red;
+}
+
+#para3 {
+  background-color: cadetblue;
+}
+
+.para1 {
+  font-weight: bolder;
+  font-size: larger;
+}
+input[type="text"] {
+  background-color: cadetblue;
+}
+
+/* div h1 {
+  /* border-width: 2px;
+  border-style: solid;
+  border-color: blue; */
+  /* border: 2px solid blue;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 8px;
+  padding-left: 15px; */
+
+  /* padding: 5px 10px 8px 15px; */
+ /* } */
+
+#btn:hover{
+    background-color: aqua;
+}
+
+.div2{
+    border: 2px solid;
+    margin: 25px 5px 20px 15px;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 20px;
+}
+ul{
+    background-color: blanchedalmond;
+}
+nav{
+    margin-top: 20px;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    width: 20%;
+}
+nav a:hover{
+    color: red;
+}
