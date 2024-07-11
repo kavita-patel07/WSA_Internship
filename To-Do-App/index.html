@@ -4,16 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do App</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div>
+    <div class="todo-container">
       <h1>To-Do List</h1>
-      <div>
-        <input type="text" placeholder="Add a new Task" />
-        <button>Add</button>
+      <div class="input-section">
+        <input type="text" placeholder="Add a new Task" id="new-task" />
+        <button id="add-task-button">Add</button>
       </div>
-      <ul style="list-style-type: none">
-        <li>Hello <button>Edit</button> <button>Delete</button></li>
+      <ul id="task-list">
+        <li style="list-style-type: none">
+          Hello,Welcome to WSA Internship <button class="edit-btn">Edit</button>
+          <button class="delete-btn">Delete</button>
+        </li>
       </ul>
     </div>
   </body>
